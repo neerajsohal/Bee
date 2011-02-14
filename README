@@ -1,0 +1,9 @@
+BEE - Backtype API Wrapper
+
+Bee is an open source API wrapper written for Backtype.
+
+Requirements:
+# PHP 5.2.x
+  Minimum PHP version required is > 5.x
+# CURL
+  CURL is required.

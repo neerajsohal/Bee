@@ -1,0 +1,10 @@
+# Common Filesystem Garbage
+.DS_Store
+.classpath
+.settings
+.project
+.buildpath
+*~
+Thumbs.db
+Desktop.ini
+nbproject
