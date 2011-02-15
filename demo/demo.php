@@ -1,10 +1,13 @@
 <?php
 include_once "../lib/Bee.php";
 
-use Bee\Bee;
-$api_key = 'e1531af80a245cd95801';
+
+$api_key = 'YOUR_API_KEY_HERE';
 
 $bee = new Bee($api_key);
+//$bee->set_format('json');
+$bee->set_method('comments/connect/stats');
+$bee->set_url("http://www.engadget.com/2011/02/15/iphone-5-to-feature-a-bigger-4-inch-display/");
 
-$bee->get_comments();
+print_r($bee->get_result());
 
